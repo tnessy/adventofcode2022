@@ -2,7 +2,7 @@ use std::cmp::Reverse;
 use std::fs;
 
 fn main() {
-    let contents = fs::read_to_string("input.txt").expect("Expected file");
+    let contents = fs::read_to_string("aoc2022-01/input.txt").expect("Expected file");
 
     let lines = contents.split("\n");
     let mut elves = Vec::new();

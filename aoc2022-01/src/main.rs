@@ -19,4 +19,5 @@ fn main() {
     }
     elves.sort_by_key(|w| Reverse(*w));
     println!("Largest calories: {}",elves[0]);
+    println!("Top 3 combined: {}", elves[0..=2].iter().sum::<i32>())
 }
